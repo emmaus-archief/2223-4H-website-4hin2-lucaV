@@ -55,10 +55,14 @@ p {
   width: 450px;
 }
 .kolomStop {
-  clear:both;                   /* stop met floaten */
+  clear:both;                  
 }
-
-/* Opmaak voor alle pagina's */
+.kolommidden {
+  float:right;
+  width: 320px;
+  height: 350px; 
+  padding-left:15px;
+}
 
 h1, h2, h3 {
       color: #ff4013;
