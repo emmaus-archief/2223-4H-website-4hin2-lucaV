@@ -185,3 +185,11 @@ nav li a.active {
 #tekst1home{
   color:white;
 }
+.kolomgullit {
+float:right;
+  height: 300px;
+  width: 250px;
+  border: 5px solid red;
+  border-style: ridge;
+  margin: 5px;
+}
