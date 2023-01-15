@@ -65,16 +65,38 @@ float: left;
   border-style: ridge;
   margin: 4px;
 }
+.kolomrechts4 {
+float:right;
+width:345px;
+height:350px;
+}
 
+.kolomlinks4 {
+float:left;
+width:345px;
+height:350px;
+}
 .vanpersie {
   max-width: 320px;
   float: left;
 }
-
+.pagina2 {
+border: 5px solid red;
+  border-style: ridge;
+  
+}
 
 .kolomRechts {
   float:left;
   width: 450px;
+}
+.kolomrechts6 {
+float: right;
+  width: 300px;
+  height: 300px;
+  margin-left: 5px;
+  border: 5px solid red;
+  border-style: ridge;
 }
 .kolomStop {
   clear:both;                  
@@ -95,8 +117,11 @@ float: left;
 .kolomrechts3 {
   float:none;
   width: 700px; 
+  height: auto;
   border: 5px solid red;
   border-style: ridge;
+
+  
   }
 
 .kolommidden {
