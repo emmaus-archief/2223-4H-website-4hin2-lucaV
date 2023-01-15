@@ -2,7 +2,7 @@
 
 * {                                          /* geldt voor alles */
     /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+    /* background-color: rgba(0,0,0,5%);  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
@@ -217,10 +217,44 @@ float: right;
 }
 
 .kolommooigebaar {
+float: right; 
+  height: 250px;
+  width: 250px;
+  border: 5px solid red;
+  border-style: ridge;
+  margin: 5px;
+}
+  
+.kolomvakken {
 float: right;
+  border: 5px solid red;
+  border-style: ridge;
+  margin: 5px;
+}
+
+.kolomdekuip {
+float: left;
+  height: 300px;
+  width: 400pxpx;
+  border: 5px solid red;
+  border-style: ridge;
+  margin: 5px;
+}
+
+.kolomvoordekuip {
+float: none;
+  height: 500px;
+  width: 695px;
+  border: 5px solid red;
+  border-style: ridge;
+  margin: 5px;
+
+.kolommooigebaar {
+float: left: 
   height: 300px;
   width: 250pxpx;
   border: 5px solid red;
   border-style: ridge;
   margin: 5px;
+}
   
